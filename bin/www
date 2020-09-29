@@ -13,7 +13,7 @@ const mongoose = require("mongoose")
  * Get port from environment and store in Express.
  */
 
-const dburl = process.env.DATABASE_URL || 'mongodb://localhost/try';
+const dburl = process.env.DATABASE_URL || 'mongodb+srv://Oyinsplash:Aramides14@cluster0-2umeh.mongodb.net/test';
 
 mongoose
   .connect(dburl, {
