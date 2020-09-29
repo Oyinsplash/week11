@@ -5,8 +5,14 @@
   "scripts": {
     "dev:server": "nodemon ./bin/www",
     "start": "node ./bin/www",
-    "test": "jest --forceExit"
+"test": " jest  --forceExit "
   },
+
+"jest": {
+"testMatch": [
+"**/?(*.)+(spec|test).[t]s?(x)"
+]
+},
   "dependencies": {
     "@babel/preset-typescript": "^7.10.4",
     "@types/bcryptjs": "^2.4.2",
